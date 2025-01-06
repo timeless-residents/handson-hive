@@ -1,7 +1,3 @@
-はい、承知いたしました。以下に、ご提供いただいた `docker-compose.yml` ファイルに基づいた `README.md` のドラフトを作成します。
-
----
-
 # Hadoop & Hive クラスタ構築 Docker Compose
 
 このリポジトリは、Docker Compose を使用して Hadoop (HDFS) と Hive の分散環境を構築するための設定ファイルを提供します。この環境では、Hive メタストアとして PostgreSQL を利用します。
@@ -126,7 +122,3 @@ docker-compose down
 - 各コンテナのログを確認するには、`docker logs <container_name>` コマンドを利用してください。
    例: `docker logs namenode`
 - この構成は開発環境を想定しています。本番環境での利用には、よりセキュアな構成と設定が必要になります。
-
----
-
-この `README.md` は、Docker Compose を使用して Hadoop と Hive をセットアップする方法を説明し、必要な情報を提供します。必要に応じて加筆修正してご利用ください。
