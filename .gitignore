@@ -1,0 +1,27 @@
+# Docker関連
+.dockerignore
+Dockerfile
+
+# Docker Compose データボリューム
+hdfs/
+metastore-postgresql/
+employee/
+
+# IDE 関連
+.idea/
+*.iml
+.vscode/
+
+# その他
+*.log
+*.swp
+*.swo
+*~
+*.pyc
+__pycache__/
+*.sqlite
+
+# OS 関連
+.DS_Store
+Thumbs.db
+desktop.ini
